@@ -43,7 +43,7 @@ func(r *Route) LoadPositions() error {
 		if err != nil {
 			return err
 		}
-		long, err := strconv.ParseFloat(data[0], 64)
+		long, err := strconv.ParseFloat(data[1], 64)
 		if err != nil {
 			return err
 		}
